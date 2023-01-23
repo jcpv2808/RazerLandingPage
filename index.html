@@ -4,55 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/42c3679691.js" crossorigin="anonymous"></script>
     <title>Razer Latin America | For Gamer. By gamers</title>
 </head>
 <body>
-    <div class="producto">
-        <h3>principal 1</h3>
-        <p></p>
-        <a href=""></a>
-    </div>
-    <div class="producto">
-        <h3>principal 2</h3>
-        <p></p>
-        <a href=""></a>
-    </div>
-    <div class="producto">
-        <h3>principal 3</h3>
-        <p></p>
-        <a href=""></a>
-    </div>
-    <div class="grid">
+    <nav id="nav_bar">
+        <ul>
+            <a id="logo" href=""><img src="img/razer-ths-logo.svg" alt=""></a>
+            <li><a href="">PC</a></li>
+            <li><a href="">Consola</a></li>
+            <li><a href="">Celular</a></li>
+            <li><a href="">Estilos de Vida</a></li>
+            <li><a href="">Servicios</a></li>
+            <li><a href="">Comunidad</a></li>
+            <li><a href="">Asistencia</a></li>
+            <li><a href="">Donde Comprar</a></li>
+            <li id="busqueda"><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
+        </ul>
+    </nav>
+    <section class="content">
+        <section id="pr_container">
+        </section>
+        <section id="pr_container_sec">
+        </section>
+    </section>
+    
+    <template id="pr_template_pr">
         <div class="producto">
-            <h3></h3>
-            <p></p>
-            <a href=""></a>
+            <img class="img_full" src="" alt="">
+            <div class="pr_info">
+                <h3></h3>
+                <p></p>
+                <a href="">Más información<i class="fa-solid fa-chevron-right"></i></a>
+            </div>
         </div>
+    </template>
+    <template id="pr_template_sec">
         <div class="producto">
-            <h3></h3>
-            <p></p>
-            <a href=""></a>
+            <img class="img_full" src="" alt="">
+            <div class="pr_info">
+                <h3></h3>
+                <p></p>
+                <a href="">Más información<i class="fa-solid fa-chevron-right"></i></a>
+            </div>
         </div>
-        <div class="producto">
-            <h3></h3>
-            <p></p>
-            <a href=""></a>
-        </div>
-        <div class="producto">
-            <h3></h3>
-            <p></p>
-            <a href=""></a>
-        </div>
-        <div class="producto">
-            <h3></h3>
-            <p></p>
-            <a href=""></a>
-        </div>
-        <div class="producto">
-            <h3></h3>
-            <p></p>
-            <a href=""></a>
-        </div>
-    </div>
+    </template>
+    <footer></footer>
+    <script src="productos.js"></script>    
 </body>
 </html>

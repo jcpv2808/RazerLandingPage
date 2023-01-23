@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-size: 100%;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #222;
+}
+ul{
+    list-style: none;
+    width: 100%;
+}
+/*nav bar ini*/
+#nav_bar{
+    overflow: hidden;
+    background-color: #040404;
+    min-height: 2.5rem;
+    height: 3.75rem;
+    max-width: 100%;
+    z-index: 2000;
+}
+#nav_bar ul{
+    display: flex;
+    color: #fff;
+    justify-content: center;
+}
+#nav_bar ul li{
+    padding: 1rem;
+    
+}
+#nav_bar ul li a, i{
+    color: #888;
+}
+#nav_bar ul li a:hover{
+    color: #fff;
+}
+#busqueda{
+    margin-left: 5rem;
+}
+#logo{
+    display: flex;
+    align-items: center;
+    padding-right: 5rem;
+}
+#logo img{
+    box-sizing: border-box;
+    height: 2.5rem;
+}
+/*nav bar end*/
+/*for sticky*/
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+.sticky + .content {
+    padding-top: 60px;
+  }
+/*for sticky*/
+.producto{
+    text-align: center;
+    font-size: 2rem;
+    position: relative;
+    z-index: 1000;
+}
+#pr_container{
+    display: grid;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+#pr_container_sec{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+}
+.img_full{
+    width: 100%;
+    height: 100%;
+}
+/*css producto-template_pr*/
+.producto div{
+    padding: 4rem;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+.producto div h3{
+    font-size: 3.5rem;
+    font-weight: 500;
+}
+.producto div p{
+    font-size: 1.75rem;
+    font-weight: 300;
+}
+.producto div a{
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.producto div a:hover{
+    text-decoration: underline;
+}
+.producto div a i{
+    color: #44D62C;
+    font-size: 1rem;
+    padding-left: 0.5rem;
+}
+
+/*css producto-template_sec*/
+.producto div{
+    padding: 4rem;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+.producto div h3{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.producto div p{
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.producto div a{
+    font-size: 1rem;
+    font-weight: 100;
+}
+.producto div a:hover{
+    text-decoration: underline;
+}
+.producto div a i{
+    color: #44D62C;
+    font-size: 1rem;
+    padding-left: 0.5rem;
+}
